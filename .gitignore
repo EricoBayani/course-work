@@ -1,0 +1,23 @@
+# ignore binaries and executables
+*
+!Makefile
+!*.*
+!*/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# pdfs are basically binaries    
+*.pdf
+    
+# ignore notes folder
+notes/
+
+# ignore temporary files made by emacs
+*~
+
+# ignore Makefile.dep and .html
+Makefile.dep
+*.html
